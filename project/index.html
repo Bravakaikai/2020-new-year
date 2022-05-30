@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/main.css">
 	<title>HAPPY NEW YEAR</title>
 </head>
+
 <body>
-
-	<video id="startGame" class="start" loop autoplay muted>
-        <source src="video/start.mp4" type="video/mp4">
-    </video>
-
-	<div class="game_bar">
+	<div class="gameBar">
+		<video id="startGame" loop autoplay muted>
+			<source src="video/start.mp4" type="video/mp4">
+		</video>
 		<button class="playBtn" onclick="play()"></button>
-	</div>	
+	</div>
 
 	<script type="text/javascript">
-		
-		var myVideo = document.getElementById("startGame"); 
+		function play() {
+			var myVideo = document.getElementById("startGame");
 
-		function play() { 
-		  if (myVideo.paused) 
-		    myVideo.play(); 
-		  else 
-		    myVideo.pause(); 
-		} 
-
+			if (myVideo.paused)
+				myVideo.play();
+			else
+				myVideo.pause();
+		}
 	</script>
 </body>
+
 </html>
