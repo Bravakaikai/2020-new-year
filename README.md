@@ -1,4 +1,4 @@
 # 2020 Happy New Year
-Click joy stick to start the game
+Click joy stick to start the game.
 
-<img src="https://user-images.githubusercontent.com/39983900/171026656-44b23573-1468-4418-86b0-0b1298eedccd.png" alt="demo" width="600"/>
+![HAPPY NEW YEAR](https://user-images.githubusercontent.com/39983900/171210518-09f7697e-cc67-4cb4-9b20-23922b9d2595.gif)
